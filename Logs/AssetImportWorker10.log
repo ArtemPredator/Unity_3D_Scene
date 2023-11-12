@@ -1,0 +1,342 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16239 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityHub\HubEditor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+E:/Silver/Documents/Unity Projects/My project (1)
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+63555
+Successfully changed project path to: E:/Silver/Documents/Unity Projects/My project (1)
+E:/Silver/Documents/Unity Projects/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10348] Host "[IP] 192.168.0.220 [Port] 0 [Flags] 2 [Guid] 1673264530 [EditorId] 1673264530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6BA73Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10348] Host "[IP] 192.168.0.220 [Port] 0 [Flags] 2 [Guid] 1673264530 [EditorId] 1673264530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6BA73Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 58.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Silver/Documents/Unity Projects/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4037 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityHub/HubEditor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002333 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 273 ms
+Refreshing native plugins compatible for Editor in 56.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (343ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Silver\Documents\Unity Projects\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Silver\Documents\Unity Projects\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.5 MB). Loaded Objects now: 3677.
+Memory consumption went from 137.3 MB to 135.8 MB.
+Total: 2.628800 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.085900 ms  DeleteObjects: 0.200200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1130922.333713 seconds.
+  path: Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiBoard_02_a.fbx
+  artifactKey: Guid(33742488b9ffd3647979a6ff03e74dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiBoard_02_a.fbx using Guid(33742488b9ffd3647979a6ff03e74dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4bf5fc91213f7d58d6449b2d3e48f2') in 0.123710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiPosts_01.fbx
+  artifactKey: Guid(a5eab68884d15064a95b192adab3420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiPosts_01.fbx using Guid(a5eab68884d15064a95b192adab3420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec862b8c87d2ff63f195b4619db3cda3') in 0.029853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiBoard_04_a.fbx
+  artifactKey: Guid(15f6cbdffee7b4645b29349424e010d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Props/Water/Jetty/JettiBoard_04_a.fbx using Guid(15f6cbdffee7b4645b29349424e010d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cc8557fe1dc8756c67c6727c2cf3f4') in 0.045430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.072530 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_b.fbx
+  artifactKey: Guid(184bbd7a4e6a13b49bba4bb0bb8b64b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_b.fbx using Guid(184bbd7a4e6a13b49bba4bb0bb8b64b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c813cbef17ad9743be6240dd8323a13') in 0.060256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Floors/Platform_01.fbx
+  artifactKey: Guid(2475800084d1a6c4a9a92017599bf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Floors/Platform_01.fbx using Guid(2475800084d1a6c4a9a92017599bf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4367512daa5c06635e83b09658cec') in 0.026273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.390390 seconds.
+  path: Assets/WoodsLifestyle/Models/Rocks/Rock_01_c.fbx
+  artifactKey: Guid(a0253a1584d93fb45aedef31c1782fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Rocks/Rock_01_c.fbx using Guid(a0253a1584d93fb45aedef31c1782fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57d214ed2f556271327f7b03d3d19ee') in 0.038133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/WoodsLifestyle/Models/Rocks/Rock_03_b.fbx
+  artifactKey: Guid(705b3a06e14f51c4eba4aac6cfd8a06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Rocks/Rock_03_b.fbx using Guid(705b3a06e14f51c4eba4aac6cfd8a06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eee31780a2b7774b25d409d6ff034c') in 0.046428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WoodsLifestyle/Models/Rocks/Rock_02_d.fbx
+  artifactKey: Guid(39a092084d898ef448a0f820fdda52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Rocks/Rock_02_d.fbx using Guid(39a092084d898ef448a0f820fdda52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b5b13f108ae2a09db92997d7443da2') in 0.092707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WoodsLifestyle/Models/Rocks/Rock_01_e.fbx
+  artifactKey: Guid(6b6c1a515912fa74cbecebb5cc0a2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Rocks/Rock_01_e.fbx using Guid(6b6c1a515912fa74cbecebb5cc0a2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717b13be3a1b984daacfbb308ee7fbc') in 0.103795 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003326 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Silver\Documents\Unity Projects\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Silver\Documents\Unity Projects\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (1.2 MB). Loaded Objects now: 3690.
+Memory consumption went from 134.0 MB to 132.8 MB.
+Total: 3.879300 ms (FindLiveObjects: 0.404000 ms CreateObjectMapping: 0.354300 ms MarkObjects: 2.823800 ms  DeleteObjects: 0.296300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.971894 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Roofs/Roof_01_b.fbx
+  artifactKey: Guid(5b8ca27d42df5dd4cbabf59f45cf8774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Roofs/Roof_01_b.fbx using Guid(5b8ca27d42df5dd4cbabf59f45cf8774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb87a8f2035e957195d21139e7671df') in 0.126729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.872088 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Doors/Door_03.fbx
+  artifactKey: Guid(67ababcb254a27544be3c01ffc068262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Doors/Door_03.fbx using Guid(67ababcb254a27544be3c01ffc068262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45f3c4fb98da6b13887c3390a72cf19') in 0.026469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.336393 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 3.prefab
+  artifactKey: Guid(96ba1b93b84bf1747bf34efceee42e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 3.prefab using Guid(96ba1b93b84bf1747bf34efceee42e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e759434b9802a169f6e92d94adf23') in 0.090657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025970 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 6.prefab
+  artifactKey: Guid(608f21762d44d604b8739667e82b7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 6.prefab using Guid(608f21762d44d604b8739667e82b7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebdd3aa339bd67c2b824ca6a61b8d08') in 0.105336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 3.prefab
+  artifactKey: Guid(5d7fbebcbe27e29468ebe80336195016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 3.prefab using Guid(5d7fbebcbe27e29468ebe80336195016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6bd4c6f07abbfe7c111e84163f085') in 0.069270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 7.prefab
+  artifactKey: Guid(fa4091d09ebefec4bbea4b302d1d31ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 7.prefab using Guid(fa4091d09ebefec4bbea4b302d1d31ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b487ff35bed3c00ab5091f1eea3ee3ba') in 0.100478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.389791 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/FireWood_02.fbx
+  artifactKey: Guid(9372c40f313d201479aedce65bcf2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/FireWood_02.fbx using Guid(9372c40f313d201479aedce65bcf2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9f70fa0e0384beb2cef7aed5b1a33') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/Log_01_a.fbx
+  artifactKey: Guid(6c5c9643b1854ba4eb9a6491424afce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/Log_01_a.fbx using Guid(6c5c9643b1854ba4eb9a6491424afce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67583eb893a3b744f3da0a3958b181b6') in 0.018426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_a.fbx
+  artifactKey: Guid(e904fdac1ce22d1489a9965702b60745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_a.fbx using Guid(e904fdac1ce22d1489a9965702b60745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91fa4515d0acec3a60c705372a4f502') in 0.054734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_b.fbx
+  artifactKey: Guid(43507009ef08f1f42aa8545e7c1b9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_b.fbx using Guid(43507009ef08f1f42aa8545e7c1b9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6da19a29d744470706d95add7c7083') in 0.023802 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
